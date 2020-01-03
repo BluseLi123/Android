@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/btn_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="线性布局"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="相对布局"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn_absoluteLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绝对布局"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文本视图"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="按钮"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文本编辑框"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片视图"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="滚动视图"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_ratiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单选框"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="复选框"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="列表视图"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_table_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="表格视图"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="网格视图"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="循环视图"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_web_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="网络视图"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="吐司？？"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="对话框"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进度条"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_custom_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义对话框"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_popup_window"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="弹窗"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btn_calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="计算器"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</ScrollView>

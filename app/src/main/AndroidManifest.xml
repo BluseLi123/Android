@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.bluseli.android">
+
+    <!--申请打电话的权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DataActivity" />
+        <activity android:name=".DemoActivity" />
+        <activity android:name=".DeviceActivity" />
+        <activity android:name=".UiActivity" />
+        <activity android:name=".ui.AbsoluteLayoutActivity"/>
+        <activity android:name=".ui.ButtonActivity"/>
+        <activity android:name=".ui.CheckBoxActivity"/>
+        <activity android:name=".ui.CustomDialogActivity"/>
+        <activity android:name=".ui.DialogActivity"/>
+        <activity android:name=".ui.EditTextActivity"/>
+        <activity android:name=".ui.ImageViewActivity"/>
+        <activity android:name=".ui.LinearlayoutActivity"/>
+        <activity android:name=".ui.PopupWindowActivity"/>
+        <activity android:name=".ui.ProgressActivity"/>
+        <activity android:name=".ui.RatioButtonActivity"/>
+        <activity android:name=".ui.RelativelayoutActivity"/>
+        <activity android:name=".ui.ScrollViewActivity"/>
+        <activity android:name=".ui.TextViewActivity"/>
+        <activity android:name=".ui.ToastActivity"/>
+        <activity android:name=".ui.WebViewActivity"/>
+        <activity android:name=".ui.Calculator"/>
+        <activity android:name=".ui.TableLayoutActivity"/>
+        <activity android:name=".ui.gridview.GridViewActivity"/>
+        <activity android:name=".ui.listview.ListViewActivity"/>
+
+        <activity android:name=".ui.recyclerview.GridRecyclerViewActivity"/>
+        <activity android:name=".ui.recyclerview.HorRecyclerActivity"/>
+        <activity android:name=".ui.recyclerview.LinearRecyclerViewActivity"/>
+        <activity android:name=".ui.recyclerview.PuRecyclerViewActivity"/>
+        <activity android:name=".ui.recyclerview.RecyclerViewActivity"/>
+
+    </application>
+
+</manifest>

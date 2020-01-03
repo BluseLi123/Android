@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/btn_ui_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="组件/视图"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn_datasava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="数据/存储"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn_ui_demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="demo/示例"
+            android:textSize="18dp"/>
+        <Button
+            android:id="@+id/btn_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="硬件/外设"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tv_hint1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="100dp"/>
+    </LinearLayout>
+</ScrollView>

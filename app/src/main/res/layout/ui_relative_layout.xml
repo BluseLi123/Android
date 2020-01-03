@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.xykj.layout.MainActivity" >
+    -->
+ 
+    <TextView
+        android:id="@+id/main_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55ff0000"
+        android:gravity="center"
+        android:text="相对布局的使用" />
+ 
+    <!--
+         android:layout_alignParentBottom="true"位于父框架的底部
+        android:layout_centerHorizontal="true"在父框架中水平居中
+        android:layout_centerVertical="true"在父框架中垂直居中
+       
+        这两个要区分，一个是边界对齐，一个是位于哪个方位
+         android:layout_below="@+id/main_tv_title"位于对应文件的下边
+        android:layout_alignRight="@+id/main_tv_title"和对应文件右对齐    -->
+ 
+    <TextView
+        android:id="@+id/main_tv_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/main_tv_title"
+        android:layout_below="@+id/main_tv_title"
+        android:background="#5500ff00"
+        android:text="二级标题" />
+ 
+    <TextView
+        android:id="@+id/main_tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="中间"
+        android:textSize="22sp"
+        android:layout_margin="30dp" />
+ 
+    <TextView
+        android:id="@+id/main_tv_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_tv_center"
+        android:layout_alignRight="@id/main_tv_center"
+        android:text="上面"
+        android:textSize="22sp" />
+ 
+    <TextView
+        android:id="@+id/main_tv_dowm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/main_tv_center"
+        android:layout_below="@id/main_tv_center"
+        android:text="下面"
+        android:textSize="22sp" />
+ 
+    <TextView
+        android:id="@+id/main_tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/main_tv_center"
+        android:text="左边"
+        android:layout_alignTop="@id/main_tv_center"
+        android:textSize="22sp" />
+ 
+    <TextView
+        android:id="@+id/main_tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/main_tv_center"
+        android:layout_alignTop="@id/main_tv_center"
+        android:text="上面"
+        android:textSize="22sp" />
+ 
+</RelativeLayout>

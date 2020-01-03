@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LinearLayout"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RelativeLayout"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EditText"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_ratiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RatioButton"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CheckBox"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ListView"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/btn_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GridView"
+            android:textSize="18dp"/>
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_1"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="#FF9900"
+                    android:src="@mipmap/xinyuanjieyi"
+                    android:scaleType="fitXY"/>
+
+                <ImageView
+                    android:id="@+id/iv_2"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="#FF9900"
+                    android:src="@mipmap/xinyuanjieyi"
+                    android:scaleType="fitXY"/>
+
+                <ImageView
+                    android:id="@+id/iv_3"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="#FF9900"
+                    android:src="@mipmap/xinyuanjieyi"
+                    android:scaleType="fitXY"/>
+
+                <ImageView
+                    android:id="@+id/iv_4"
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="#FF9900"
+                    android:src="@mipmap/xinyuanjieyi"
+                    android:scaleType="fitXY"/>
+
+            </LinearLayout>
+            
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</ScrollView>
