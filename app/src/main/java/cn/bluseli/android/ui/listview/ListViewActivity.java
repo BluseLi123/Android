@@ -43,9 +43,9 @@ public class ListViewActivity extends AppCompatActivity
                 }, 0x11);
 
                 //String phone = mTextPhone.getText().toString();
-                String phone =mLv_contacter.getChildAt(i).findViewById(R.id.tv_telephone).toString();
+                //String phone =mLv_contacter.getChildAt(i).findViewById(R.id.tv_telephone).toString().trim();
                 //String phone =mLv_contacter.getSelectedView().findViewById(R.id.tv_telephone).toString();
-                //String phone = view.findViewById(R.id.tv_telephone).toString();
+                String phone = view.findViewById(R.id.tv_telephone).toString().trim();
                 //System.out.println(phone);
                 if (phone == null | phone.isEmpty()) {
                     return;

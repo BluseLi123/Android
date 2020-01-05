@@ -4,6 +4,9 @@
 
     <!--申请打电话的权限-->
     <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!--申请SD卡权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -49,6 +52,12 @@
         <activity android:name=".ui.recyclerview.LinearRecyclerViewActivity"/>
         <activity android:name=".ui.recyclerview.PuRecyclerViewActivity"/>
         <activity android:name=".ui.recyclerview.RecyclerViewActivity"/>
+
+        <activity android:name=".data.FileLoginActivity"/>
+        <activity android:name=".data.SdcardLoginActivity"/>
+        <activity android:name=".data.ServerLoginActivity"/>
+        <activity android:name=".data.XmlActivity"/>
+        <activity android:name=".data.SqliteActivity"/>
 
     </application>
 

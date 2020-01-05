@@ -28,4 +28,14 @@
         android:layout_height="wrap_content"
         android:text="包装Toast"/>
 
+    <TextView
+        android:id="@+id/tv_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="just a textview"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+
 </LinearLayout>

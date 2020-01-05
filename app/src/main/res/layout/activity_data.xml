@@ -23,6 +23,13 @@
             android:textSize="18dp"/>
 
         <Button
+            android:id="@+id/btn_server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录到服务器"
+            android:textSize="18dp"/>
+
+        <Button
             android:id="@+id/btn_xml"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
